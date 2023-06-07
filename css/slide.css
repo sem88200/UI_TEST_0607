@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*,*:after,*:before{box-sizing: border-box;}
+body{
+ margin:100px 0;
+}
+h1{
+ color:#494949;
+ padding-bottom:30px;
+ text-align: center;
+}
+#box{
+ width:90%;
+ position:relative;
+ margin:0 auto;
+}
+#banner_wrap{
+ width:80%;
+ margin:0 auto;
+}
+#slide_banner li{
+ width:300px;
+}
+#slide_banner img{
+ width:100%;
+}
+#prevBtn{
+ position:absolute;
+ left:0;
+ top:45%;
+}
+#nextBtn{
+ position:absolute;
+ right:0;
+ top:45%;
+}
